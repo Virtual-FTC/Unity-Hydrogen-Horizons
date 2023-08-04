@@ -3,16 +3,40 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ring
+  - BlueWobble
+  - RedWobble
+  - Wobble
+  - RedRobot
+  - BlueRobot
+  - OutsideRing
+  - Floor
+  - Robot
+  - 1
+  - 2
+  - 3
+  - 4
+  - Cube
+  - Ball
+  - Duck
+  - JointHub
+  - RedHub
+  - BlueHub
+  - Spinner
+  - RobotTrigger
+  - Box
+  - Warehouse
+  - Partial
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Glow
   - Water
   - UI
-  - 
-  - 
+  - Robot
+  - Spinner
   - 
   - 
   - 
