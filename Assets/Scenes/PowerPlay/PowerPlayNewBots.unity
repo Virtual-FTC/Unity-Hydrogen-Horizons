@@ -1648,7 +1648,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.65
+  m_fontSize: 33.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1784,7 +1784,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29.35
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -9047,7 +9047,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.65
+  m_fontSize: 33.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -14207,7 +14207,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
+  m_fontSize: 36.8
   m_fontSizeBase: 36.8
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -14467,7 +14467,7 @@ PrefabInstance:
     - target: {fileID: 4902547265053215149, guid: e38fbe53eaabd6b40b308ce01a8a929c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.5018921
+      value: -0.5019531
       objectReference: {fileID: 0}
     - target: {fileID: 4902547265053215149, guid: e38fbe53eaabd6b40b308ce01a8a929c,
         type: 3}
@@ -19442,6 +19442,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1536880151336385217, guid: d6e09c55c8336e54e9b610ef67e8a2ea, type: 3}
+--- !u!1 &762062743 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7352357953036275675, guid: ef46548fd5fada84b9f45807c83ae855,
+    type: 3}
+  m_PrefabInstance: {fileID: 325453115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &762062747
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762062743}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9026155364463262221, guid: ef46548fd5fada84b9f45807c83ae855, type: 3}
 --- !u!1 &762324601 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 954969718052570930, guid: ed26540af09b85d43815c939965715bb,
@@ -20586,7 +20606,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.75
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -21521,6 +21541,26 @@ MonoBehaviour:
     officialName: 
     overrideName: 
   buttonTeam: 1
+--- !u!1 &880310046 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1978767026429329556, guid: ef46548fd5fada84b9f45807c83ae855,
+    type: 3}
+  m_PrefabInstance: {fileID: 325453115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &880310050
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880310046}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5263592737527104077, guid: ef46548fd5fada84b9f45807c83ae855, type: 3}
 --- !u!1 &882851088
 GameObject:
   m_ObjectHideFlags: 0
@@ -27777,7 +27817,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.4
+  m_fontSize: 25.6
   m_fontSizeBase: 27.3
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -34476,6 +34516,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 241699255}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1538009884 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8608001271384596006, guid: ef46548fd5fada84b9f45807c83ae855,
+    type: 3}
+  m_PrefabInstance: {fileID: 325453115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1538009888
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538009884}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8043486603024932820, guid: ef46548fd5fada84b9f45807c83ae855, type: 3}
 --- !u!1 &1545384282
 GameObject:
   m_ObjectHideFlags: 0
@@ -34635,6 +34695,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546575010}
   m_CullTransparentMesh: 1
+--- !u!1 &1560831562 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3831769804861989218, guid: ef46548fd5fada84b9f45807c83ae855,
+    type: 3}
+  m_PrefabInstance: {fileID: 325453115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1560831566
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560831562}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8640798940867185924, guid: ef46548fd5fada84b9f45807c83ae855, type: 3}
 --- !u!1 &1562016644
 GameObject:
   m_ObjectHideFlags: 0
@@ -38491,7 +38571,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.4
+  m_fontSize: 25.6
   m_fontSizeBase: 27.3
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -48373,7 +48453,7 @@ PrefabInstance:
     - target: {fileID: 4902547265053215149, guid: e38fbe53eaabd6b40b308ce01a8a929c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.5018921
+      value: -0.5019531
       objectReference: {fileID: 0}
     - target: {fileID: 4902547265053215149, guid: e38fbe53eaabd6b40b308ce01a8a929c,
         type: 3}
