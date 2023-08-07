@@ -14,6 +14,8 @@ public class DistanceSensor : MonoBehaviour
     [Tooltip("value in centimeters")]
     public float rayLength;
 
+    public LayerMask layerMask;
+
     private float distanceSensed = -1;
     private float convertedRayLength;
     private static float fieldScaleFactor = 200f;//field appears to be at half scale (value should be 100f at full scale), in centimeters
@@ -40,7 +42,7 @@ public class DistanceSensor : MonoBehaviour
 
     private void DetectObject()
     {
-        if (Physics.Raycast(rayToSenseDistance, out hit, convertedRayLength))
+        if (Physics.Raycast(rayToSenseDistance, out hit, convertedRayLength, layerMask))
         { 
             distanceSensed = hit.distance * fieldScaleFactor;
             //Debug.Log(hit.transform + "distance sensed: " + distanceSensed, hit.transform.gameObject);

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: BotPrefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: BotPrefabs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e74ef2a72b87a544986de130a3ef4a0b
+  m_SerializeEntries:
+  - m_GUID: 8a5647246f02a4f44858764fa9f0607a
+    m_Address: swingingarm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - robot
+  - m_GUID: 94d143fdacea75a448b200ec1ac23186
+    m_Address: tinybot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - robot
+  - m_GUID: 537cf228ea1404c4fb7a209e1bb91065
+    m_Address: cascadebotnew
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - robot
+  - m_GUID: 66c2a2fdc76d4a84d96196da80906e81
+    m_Address: testbot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - robot
+  - m_GUID: debf79fb6b20d944b9ec974d1f8ea988
+    m_Address: cascadebot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - robot
+  - m_GUID: b22ccde8939cff84a9dbb59d9933419d
+    m_Address: test1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - robot
+  - m_GUID: 5890b720111a01d48bf5fc31cd7297f0
+    m_Address: 18658xrq
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - robot
+  - m_GUID: bc97bce65186bb7479e1b5d2fdf01eec
+    m_Address: test2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - robot
+  - m_GUID: dc2dea26091319242b31b1c7d1aaf858
+    m_Address: parkerbot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - robot
+  - m_GUID: 0fd0cf16ac825324bbbf4f3a8f9144a6
+    m_Address: hydrogenBot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - robot
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 3a4944084d65f9f4fbe0d2d06f92f49e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 49ef78d40dc0b434fa5cce163287e0d0, type: 2}
+    - {fileID: 11400000, guid: c44d8eb0357ff5640a2bda7d2aac1d9f, type: 2}
