@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: BotModels
+  m_EditorClassIdentifier: 
+  m_GroupName: BotModels
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 652bea5bf73c80749abda96774238b44
+  m_SerializeEntries:
+  - m_GUID: 6276ac189ae1403488d28af8894669e1
+    m_Address: swingingarm
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b38c08a266f10ac458aaef39c234de50
+    m_Address: vertical-narrow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ae733a2bd8642524fabfabca94270a18
+    m_Address: cascade
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 3a4944084d65f9f4fbe0d2d06f92f49e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c4efaeb2781c58441a86fdb269156a25, type: 2}
+    - {fileID: 11400000, guid: ac5ed2fcf4973f24ebd116a3c026ac2b, type: 2}

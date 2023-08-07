@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1ae8918d6112548bb416e1a3dda605, type: 3}
+  m_Name: MaterialIndexDefault
+  m_EditorClassIdentifier: 
+  blueGoalMaterial: {fileID: 2100000, guid: 86f7ec49fba4f2d4dbd8102f175555fe, type: 2}
+  redGoalMaterial: {fileID: 2100000, guid: 41d384610130b0e41bd7b6616bc823ef, type: 2}
+  eitherGoalMaterial: {fileID: 2100000, guid: 154edc35ef8124f4693c3e66268e9843, type: 2}
+  blueTapeMaterial: {fileID: 2100000, guid: 02378a69a24cd934abd6af77209f799a, type: 2}
+  redTapeMaterial: {fileID: 2100000, guid: a74898dfa2709d143b3e9cc9c82de7d8, type: 2}
+  trackerObjectMaterial: {fileID: 2100000, guid: 628839cccfa50c8448e59f56448de339,
+    type: 2}

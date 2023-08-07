@@ -6,15 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: 3cbed020975d29b43a61231f0ec56902
-  - enabled: 1
-    path: Assets/Scenes/MultiplayerMenu.unity
-    guid: 9d994d3bb022f0e4d9ab98ed295d9421
-  - enabled: 1
-    path: Assets/Scenes/FieldSetupMenu.unity
-    guid: 11521e0a7a79f0746956c63618c4ce98
-  - enabled: 1
-    path: Assets/Scenes/Field2020.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  m_configObjects: {}
+    path: Assets/Scenes/PowerPlay/PowerPlayNewBots.unity
+    guid: 6b8a11252cf84604aa51fe4d127c5d5d
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: d7870108b521dc24db3f0509f20437e3,
+      type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 040d77afd71907842ba812e70f1d2c55,
+      type: 2}

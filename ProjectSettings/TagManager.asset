@@ -17,7 +17,24 @@ TagManager:
   - 2
   - 3
   - 4
-  - roomlabel
+  - Cube
+  - Ball
+  - Duck
+  - JointHub
+  - RedHub
+  - BlueHub
+  - Spinner
+  - RobotTrigger
+  - Box
+  - Warehouse
+  - Partial
+  - TestCube
+  - duck
+  - cube
+  - test
+  - WhiffleBall
+  - Cone
+  - Beacon
   layers:
   - Default
   - TransparentFX
@@ -25,19 +42,19 @@ TagManager:
   - Glow
   - Water
   - UI
-  - ColorSensor
-  - Player
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Robot
+  - Spinner
+  - IgnoreColorSensor
+  - IgnoreScoringObjects
+  - ScoringObjectCollisions
+  - IgnoreRobot
+  - IgnoreJunctionPole
+  - JunctionPole
+  - IgnoreField
+  - Field
+  - GoalZone
+  - AdjacentJunctionDetector
+  - JunctionSliderColliders
   - 
   - 
   - 
