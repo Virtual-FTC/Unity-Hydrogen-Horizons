@@ -35,6 +35,8 @@ TagManager:
   - WhiffleBall
   - Cone
   - Beacon
+  - Hydrogen
+  - Oxygen
   layers:
   - Default
   - TransparentFX

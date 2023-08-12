@@ -1,0 +1,3 @@
+[submodule "Modules/UPM-RobotConstructorKit"]
+	path = Modules/UPM-RobotConstructorKit
+	url = https://github.com/Virtual-FTC/UPM-RobotConstructorKit.git
