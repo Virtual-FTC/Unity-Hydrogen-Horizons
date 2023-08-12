@@ -199,7 +199,7 @@
       }
     },
     "com.vftc.robotconstructionkit": {
-      "version": "file:C:/Upwork/Jonathan Weiland/UPM-RobotConstructorKit",
+      "version": "file:../Modules/UPM-RobotConstructorKit",
       "depth": 0,
       "source": "local",
       "dependencies": {

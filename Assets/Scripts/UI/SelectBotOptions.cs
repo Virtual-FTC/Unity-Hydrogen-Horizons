@@ -139,7 +139,7 @@ public class SelectBotOptions : MonoBehaviour
         }
 
         AdjustLaser laser = bot.GetComponentInChildren<AdjustLaser>();
-        laser.ToggleLaser(false,true);
+        if (laser) { laser.ToggleLaser(false, true); }
         spawnedBot = bot;
         FieldManager.botColor = color;
         if (preloadCone)
