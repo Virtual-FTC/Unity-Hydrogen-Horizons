@@ -69,7 +69,9 @@ public class FieldManager : MonoBehaviour
     void checkSignalSensor()
     {
         int signalType = 0;
-        GameObject signalConeParent = FindObjectOfType<SignalRandomizer>().gameObject;
+        SignalRandomizer signal = FindObjectOfType<SignalRandomizer>();
+        if(!signal) { return; }
+        GameObject signalConeParent = signal.gameObject;
         foreach(Transform child in signalConeParent.transform)
         {
             signalType++;
