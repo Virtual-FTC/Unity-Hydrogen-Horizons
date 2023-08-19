@@ -11,7 +11,8 @@
                     "id": "f6717ee5-6dc8-4b39-bc5b-d5d0bd33a339",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Rotation",
@@ -19,7 +20,8 @@
                     "id": "5af8b6ef-f518-43e5-baa3-68cf979fd220",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "MotorOne",
@@ -27,7 +29,8 @@
                     "id": "367d6983-1e09-4fa2-a4de-a8bdfcbaf39d",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "MotorTwo",
@@ -35,7 +38,8 @@
                     "id": "23675e90-1fd3-43ec-9d43-e2cbb4a00839",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "MotorThree",
@@ -43,7 +47,17 @@
                     "id": "43b26dc0-0f36-44cb-a6dc-b0901b842a9d",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MotorFour",
+                    "type": "Value",
+                    "id": "cd5d2c99-fc2c-4997-a1e2-74840b471cc5",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "ReleaseCone",
@@ -51,7 +65,8 @@
                     "id": "032b745e-2f45-4d05-8ea8-2b27f8827253",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "ReleaseBeacon",
@@ -59,7 +74,8 @@
                     "id": "dbe0758e-fd58-49da-8f81-d53fd35c9656",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "SwitchCamera",
@@ -67,7 +83,8 @@
                     "id": "ec3bc8e5-d7c7-45e8-b7a9-9fd128f57d62",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "Press"
+                    "interactions": "Press",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Help",
@@ -75,7 +92,8 @@
                     "id": "66bd528d-13a3-4b53-be43-3c1131584971",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -428,6 +446,50 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "MotorThree",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "b15f1efe-3e2a-4d73-995a-c6a1c7b9e90b",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MotorFour",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "1cb21bed-a997-4303-b6c1-def3ee6e7e92",
+                    "path": "<Keyboard>/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "MotorFour",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "aed33cb1-9c8b-4652-9420-a1edc76c1933",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "MotorFour",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "99ed0984-a186-4695-bbbe-0449b8593097",
+                    "path": "<Gamepad>/dpad/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "MotorFour",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
