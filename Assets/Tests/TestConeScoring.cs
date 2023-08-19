@@ -159,14 +159,14 @@ public class TestConeScoring : MonoBehaviour
         cone.HeightOffset = 1f;
         cone.color = color; 
         
-        foreach(JunctionCapper loc in TestHelper.scoringLocs)
+        /*foreach(JunctionCapper loc in TestHelper.scoringLocs)
         {
             string scoreObjName = loc.transform.parent.parent.parent.name;
             if (scoreObjName.Contains("Ground") && !testGround) { continue; }
             if (!scoreObjName.Contains("Ground") && !testPoles) { continue; }
             cone.Drop(loc.gameObject);
             yield return new WaitForSeconds(0.1f);
-        }
+        }*/
         yield return new WaitForSeconds(2);
         ScoreTracker score = TestHelper.scores["Red"];
         ScoreTracker otherScore = TestHelper.scores["Blue"];

@@ -9,7 +9,7 @@ public static class TestHelper
     public static GameObject[,] gameGrid;
     static int gridHeight = 5;
     static int gridWidth = 5;
-    public static JunctionCapper[] scoringLocs;
+    //public static JunctionCapper[] scoringLocs;
     public static string testPattern = "TB0,A0,B1,C2,D3,E4,TB1";
     public static Dictionary<string,GameObject> terminals = new Dictionary<string,GameObject>();
     //TB0,TB1,TR0,TR1
@@ -50,12 +50,12 @@ public static class TestHelper
             string coords = term.transform.name.Split('-')[1];
             terminals.Add(coords, term.gameObject);
         }
-        scoringLocs = GameObject.FindObjectsOfType<JunctionCapper>();
+        /*scoringLocs = GameObject.FindObjectsOfType<JunctionCapper>();
         foreach (JunctionCapper cap in scoringLocs)
         {
             string coords = cap.transform.parent.parent.parent.name.Split('-')[1];//need a 
             setGoalOnGrid(coords, cap.gameObject);
-        }
+        }*/
     }
 
     public static void StartMode(GameMode mode)
