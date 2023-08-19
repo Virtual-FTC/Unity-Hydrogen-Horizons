@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: TeleOpMidgame
   m_EditorClassIdentifier: 
   roundName: TeleOp
-  sessionLength: 90
+  sessionLength: 230
   playThisSession: 1
   pauseAtStart: 1
+  controlsAvailable: 0
